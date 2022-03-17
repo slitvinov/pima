@@ -9,3 +9,9 @@ Proc. Annu. Symp. Comput. Appl. Med. Care, pp. 261-265, Nov. 1988.
 - https://www.openml.org/d/37
 - https://datahub.io/machine-learning/diabetes
 - https://www.cs.waikato.ac.nz/ml/weka/arff.html
+
+# Install
+
+<pre>
+python3 -m pip install arff
+</pre>
