@@ -13,7 +13,7 @@ Proc. Annu. Symp. Comput. Appl. Med. Care, pp. 261-265, Nov. 1988.
 # Install
 
 <pre>
-python3 -m pip install arff
+python -m pip install arff sklearn
 </pre>
 
 # Data
@@ -30,20 +30,3 @@ Glucose Tolerance Test (GTIT)
 8. Age (years)
 </pre>
 
-# Models
-
-<pre>
-classifiers = {
-    "Logistic": LogisticRegression('none'),
-    "Linear SVM": SVC(kernel="linear", probability=True, random_state=0),
-    "RBF SVM" : SVC(gamma=2, C=1),
-    "GPC": GaussianProcessClassifier(),
-    "Decision Tree" : DecisionTreeClassifier(),
-    "Random Forest" : RandomForestClassifier(max_depth=10, n_estimators=100, max_features=2),
-    "KNeighbors" : KNeighborsClassifier(),
-    "Neural Net" : MLPClassifier(alpha=1, max_iter=1000),
-    "AdaBoost" : AdaBoostClassifier(),
-    "Naive Bayes" : GaussianNB(),
-    "QDA" : QuadraticDiscriminantAnalysis()
-}
-</pre>
