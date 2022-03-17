@@ -13,7 +13,7 @@ Proc. Annu. Symp. Comput. Appl. Med. Care, pp. 261-265, Nov. 1988.
 # Install
 
 <pre>
-python -m pip install arff sklearn
+python -m pip install arff sklearn matplotlib
 </pre>
 
 # Data
@@ -30,3 +30,6 @@ Glucose Tolerance Test (GTIT)
 8. Age (years)
 </pre>
 
+# Models
+
+<p align="center"><img src="img/rate.png"/></p>
