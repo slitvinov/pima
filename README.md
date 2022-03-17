@@ -29,3 +29,21 @@ Glucose Tolerance Test (GTIT)
 7. Diabetes Pedigree Function
 8. Age (years)
 </pre>
+
+# Models
+
+<pre>
+classifiers = {
+    "Logistic": LogisticRegression('none'),
+    "Linear SVM": SVC(kernel="linear", probability=True, random_state=0),
+    "RBF SVM" : SVC(gamma=2, C=1),
+    "GPC": GaussianProcessClassifier(),
+    "Decision Tree" : DecisionTreeClassifier(),
+    "Random Forest" : RandomForestClassifier(max_depth=10, n_estimators=100, max_features=2),
+    "KNeighbors" : KNeighborsClassifier(),
+    "Neural Net" : MLPClassifier(alpha=1, max_iter=1000),
+    "AdaBoost" : AdaBoostClassifier(),
+    "Naive Bayes" : GaussianNB(),
+    "QDA" : QuadraticDiscriminantAnalysis()
+}
+</pre>
