@@ -15,3 +15,17 @@ Proc. Annu. Symp. Comput. Appl. Med. Care, pp. 261-265, Nov. 1988.
 <pre>
 python3 -m pip install arff
 </pre>
+
+# Data
+
+<pre>
+1. Number of times pregnant
+2. Plasma Glucose Concentration at 2 Hours in an Oral
+Glucose Tolerance Test (GTIT)
+3. Diastolic Blood Pressure (mm Hg)
+4. Triceps Skin Fold Thickness (mm)
+5. 2-Hour Serum Insulin Uh/ml)
+6. Body Mss Index (Weight in kg / (Height in in))
+7. Diabetes Pedigree Function
+8. Age (years)
+</pre>
