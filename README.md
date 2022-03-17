@@ -4,6 +4,7 @@ J. W. Smith, J. E. Everhart, W. C. Dickson, W. C. Knowler and
 R. S. Johannes, "Using the ADAP learning algorithm to forecast the
 onset of diabetes mellitus",
 Proc. Annu. Symp. Comput. Appl. Med. Care, pp. 261-265, Nov. 1988.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2245318/
 
 - https://www.kaggle.com/uciml/pima-indians-diabetes-database
 - https://www.openml.org/d/37
