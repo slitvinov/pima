@@ -43,8 +43,7 @@ for row in arff.load('pima.arff'):
 X0, X1, y0, y1 = sklearn.model_selection.train_test_split(X,
                                                           y,
                                                           train_size=576,
-                                                          random_state=123456,
-                                                          stratify=y)
+                                                          random_state=123456)
 
 scaler = sklearn.preprocessing.StandardScaler()
 error0 = []
