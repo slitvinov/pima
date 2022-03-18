@@ -12,6 +12,7 @@ import sklearn.neural_network
 import sklearn.pipeline
 import sklearn.preprocessing
 import sklearn.svm
+import sys
 
 models = \
     (sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis(), "QDA"), \
@@ -66,4 +67,6 @@ plt.xlabel("false positive rate")
 plt.ylabel("false negative rate")
 for (fp, fn), (model, name_model) in zip(error1, models):
     ax.annotate(name_model, (fp, fn))
-plt.savefig('rate.png')
+path = "rate.png"
+plt.savefig(path)
+sys.stderr.write("%s\n" % path)
